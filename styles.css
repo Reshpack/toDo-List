@@ -54,3 +54,36 @@ body {
     cursor: pointer;
     color: #2e2e2e;
 }
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.welcome h1 {
+    font-size: 1.5rem;
+}
+
+.welcome p {
+    font-weight: 500;
+}
+
+.welcome .img {
+    position: relative;
+}
+
+.welcome .img img {
+    width: 5rem;
+}
+
+.welcome .img .backdrop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3.8rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: ;
+}
